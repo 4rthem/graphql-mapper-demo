@@ -68,7 +68,7 @@ php -S localhost:8000
 
 then you can query your schema at `POST http://localhost:8000/entry.php`
 
-### Exemple
+### Example
 
 For the given cURL request:
 
