@@ -1,0 +1,26 @@
+{
+    "name": "arthem/graphql-mapper-demo",
+    "description": "A GraphQL Mapper demo",
+    "type": "project",
+    "license": "MIT",
+    "homepage": "https://github.com/4rthem/graphql-mapper-demo",
+    "authors": [
+        {
+            "name": "Arthur de Moulins",
+            "email": "arthurdemoulins@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "arthem/graphql-mapper": "~0.0.2",
+        "doctrine/orm": "2.5.*"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": {
+            "Arthem\\GraphQLMapper\\Demo\\": "src/"
+        }
+    }
+}
